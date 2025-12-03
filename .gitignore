@@ -1,0 +1,100 @@
+# Node.js Server Tutorial - Git Ignore Configuration
+# This file specifies files and directories that Git should ignore
+
+# =============================================================================
+# Dependencies
+# =============================================================================
+
+# Node.js dependencies - npm packages installed via npm install
+# This directory can be very large and should always be regenerated from package.json
+node_modules/
+
+# =============================================================================
+# Logs
+# =============================================================================
+
+# npm debug logs generated during package installation or script execution
+npm-debug.log
+npm-debug.log*
+
+# Yarn debug logs (if yarn is used instead of npm)
+yarn-debug.log*
+yarn-error.log*
+
+# Generic log files
+*.log
+logs/
+*.log.*
+
+# =============================================================================
+# Environment Files
+# =============================================================================
+
+# Environment variables file - may contain sensitive data like API keys
+# Never commit this file to version control
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =============================================================================
+# Operating System Files
+# =============================================================================
+
+# macOS Finder metadata files
+.DS_Store
+.DS_Store?
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Windows desktop.ini files
+Desktop.ini
+
+# =============================================================================
+# IDE and Editor Files
+# =============================================================================
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs (WebStorm, IntelliJ)
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# =============================================================================
+# Runtime and Build Files
+# =============================================================================
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by testing tools
+coverage/
+.nyc_output/
+
+# Build output directories
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# =============================================================================
+# Package Manager Lock Files (Optional - uncomment if desired)
+# =============================================================================
+
+# Note: package-lock.json is typically committed to ensure consistent installs
+# Uncomment the line below only if you want to ignore it
+# package-lock.json
