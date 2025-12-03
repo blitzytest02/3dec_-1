@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-server-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial project demonstrating Node.js server development with native HTTP and Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "server": "node docs/examples/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "tutorial",
+    "http-server",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
